@@ -19,12 +19,14 @@ int _tmain(int argc, _TCHAR* argv[])
 		push 0xbadcafe1
 		pop pattern2
 		pop pattern1
+
 		mov byte ptr smc, 0x90
 smc:
 		_emit 0xcc
 		sub esp, 8
 		pop word2
 		pop word1
+
 	}
 
 	printf("* [ESP-4] before SMC: %x\n", pattern1);

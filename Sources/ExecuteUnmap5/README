@@ -1,4 +1,4 @@
-This case is a modified ExecuteUnamp1 sample. The difference
+This case is a modified ExecuteUnmap1 sample. The difference
 is that the buffer for the block is directly allocated as
 PAGE_EXECUTE_READWRITE. After the block is created, the page
 is again remapped as PAGE_NOACCESS.

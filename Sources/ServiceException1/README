@@ -2,8 +2,6 @@ This sample demonstrates the inherent weakness of all DBT tools
 that detect memory writes based on write-protecting and
 service exceptions.
 
-<picture>
-
 DR and SF2/nounmap fail as expected.
 SF2/checksonly passes as expected.
 
